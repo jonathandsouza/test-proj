@@ -15,6 +15,7 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className="container mx-auto flex flex-col items-center justify-center h-screen p-4">
+				<h1>test#1</h1>
 				{!students.data && <>loading...</>}
 				{students.data &&
 					students.data.map((student) => (
